@@ -1,1 +1,1 @@
-deneme# web-site-parts-JS
+# web-site-parts-JS
