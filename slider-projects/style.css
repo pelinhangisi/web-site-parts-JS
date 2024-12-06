@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 .sliderComponent {
     position: relative;
@@ -17,6 +18,14 @@ body {
 }
 .imageContainer {
     display: flex;
+    position: relative;
+    left: 0;
+}
+.imageContainer img {
+    width: 900px; 
+    height: 500px; 
+    object-fit: cover;
+    flex-shrink: 0; 
 }
 .icon {
     position: absolute;
