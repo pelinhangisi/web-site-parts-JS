@@ -5,3 +5,5 @@
 - fetch API call
 - dynamic data
 - setTimeout - arrow click event
+
+2- Loading Bar

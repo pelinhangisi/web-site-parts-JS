@@ -10,7 +10,7 @@ function fetchAndDisplayImages() {
   fetch(sliderEndpoint)
     .then((response) => response.json())
     .then((data) => {
-      data.slice(25, 35).forEach((item) => {
+      data.slice(15, 25).forEach((item) => {
         const imgElement = document.createElement('img');
         imgElement.src = item.download_url;
         imgElement.alt = item.author;
